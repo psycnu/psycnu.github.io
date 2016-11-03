@@ -1,10 +1,10 @@
 /* ------------------------------------------------------------------------------
  	Author: WebThemez
 -------------------------------------------------------------------------------*/
-		
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
-	
-	
+
+@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
+
+
 /* ------------------------------------------------------------------------------
 	Slider Images URL
 -------------------------------------------------------------------------------*/
@@ -111,7 +111,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 55px 0;
+	padding: 10px 0;
 }
 .no-padding {
 	padding: 0;
@@ -330,7 +330,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
- 
+
 #first-slider .main-container {
   padding: 0;
 }
@@ -398,7 +398,7 @@ ul li {
 
 
 #first-slider h1 {
-  text-align: center;  
+  text-align: center;
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: bold;
@@ -500,20 +500,22 @@ ul li {
 	color: #fff;
 	margin-bottom: 20px;
 }
-.intro p { 
+.intro p {
 	color: #fff;
 	font-weight: 400;
 }
 /* -----------------------------------------------------------------------------
 Common Styles
 ------------------------------------------------------------------------------- */
-.section-header{	text-align: center;	padding-bottom: 30px;
+.section-header{
+text-align: center;
+padding-bottom: 30px;
 }
 .section-header h2{
-	
+
 }
 .section-header p{
-	
+
 }
 
 
@@ -628,7 +630,7 @@ Common Styles
     margin: 20px;
 }
 .video-section{padding: 88px 0 20px;}
-address { 
+address {
     line-height: 1.42857143;
     color: #b5b5b5 !important;
 }
@@ -679,38 +681,38 @@ About
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-3-10 .image-container {
 		height: 100%;
 	}
-	
+
 	.content-3-10 .content {
 		margin-top: 0px;
 		padding: 80px 15px 80px 80px;
 		background: #eaeaea;
 	}
-	
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /* ------------------------------------------------------------------------------
 	 package
 -------------------------------------------------------------------------------*/
 .packageList {
-	margin-bottom: 50px;  
+	margin-bottom: 50px;
 }
 h5 {
     font-size: 1.286em;
@@ -734,7 +736,7 @@ ul.list-default li {
 	padding: 1em 0 0.5em;
 }
 .package:hover {
-	background-color: #fbfbfb; 
+	background-color: #fbfbfb;
 }
 .package:hover h5 {
 	color: #ff67ab;
@@ -745,7 +747,7 @@ ul.list-default li {
 .package ul.list-default li {
 	border: none !important;
 	padding: 4px 0;
-} 
+}
 .package ul.list-default li:before {
 	top: 0.3em !important;
 }
@@ -773,12 +775,29 @@ ul.list-default li {
 	font-size: 0.7em;
 	margin-right: 3px;
 }
+
+/* ------------------------------------------------------------------------------
+   Teams
+-------------------------------------------------------------------------------*/
+.publications ul.list-with-mark li {
+  font-size: 1.2em;
+  list-style-type: square;
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+
+.publications .title {
+  font-style: italic;
+  font-weight: 400;
+}
+
 /* ------------------------------------------------------------------------------
 	 Teams
 -------------------------------------------------------------------------------*/
 .person {
-	max-width: 270px;
+	/*max-width: 270px;*/
 	text-align: center;
+  margin-bottom: 20px;
 }
 .person img {
 	width: 150px;
@@ -795,7 +814,7 @@ ul.list-default li {
 	color: #0385dc;
 	font-size: 13px;
 	font-weight: 400;
-	margin-bottom: 20px;
+
 }
 .social-icons, .footer .footer-share {
 	margin-top: 20px;
