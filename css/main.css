@@ -10,18 +10,21 @@
 -------------------------------------------------------------------------------*/
 
 #first-slider .slide1 {
-    background-image: url('../images/slides/1.jpg');
+    /*background-image: url('../images/slides/1.jpg');*/
+    background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url('../images/slides/2.jpg');
+  /*background-image: url('../images/slides/2.jpg');*/
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url('../images/slides/3.jpg');
-      background-size: cover;
+  /*background-image: url('../images/slides/3.jpg');*/
+    background-color: #fff;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -33,6 +36,9 @@ p {
 	font-size: 14px;
 	line-height: 22.4px;
 	color: #6c7279;
+}
+.text-red {
+	color: #eb7e24;
 }
 h1 {
 	font-size: 65px;
@@ -181,7 +187,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #fff;
+	color: #000;
 	font-size: 14px;
 	font-weight: 700;
 	margin-left: 40px;
@@ -337,14 +343,14 @@ ul li {
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
-    color: #fff;
+    color: #000;
     font-size: 30px;
       text-transform: uppercase;
       font-weight:700;
 }
 
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
-    color: #fff;
+    color: #000;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -363,7 +369,7 @@ ul li {
   background-image: none;
 }
 #first-slider .carousel .item {
-  min-height: 650px;
+  min-height: 600px;
   height: 100%;
   width:100%;
 }
@@ -464,8 +470,8 @@ ul li {
     height: 38px;
     margin-top: -15px;
     font-size: 30px;
-    color: #fff;
-    border: 3px solid #ffffff;
+    color: #000;
+    border: 3px solid #000;
     -webkit-border-radius: 23px;
     -moz-border-radius: 23px;
     border-radius: 53px;
@@ -476,8 +482,8 @@ ul li {
     height: 38px;
     margin-top: -15px;
     font-size: 30px;
-    color: #fff;
-    border: 3px solid #ffffff;
+    color: #000;
+    border: 3px solid #000;
     -webkit-border-radius: 23px;
     -moz-border-radius: 23px;
     border-radius: 53px;
@@ -493,15 +499,15 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #0385dc;
+	background-color: #c1d9ed;
 	/* color: #000; */
 }
 .intro h3 {
-	color: #fff;
+	color: #000;
 	margin-bottom: 20px;
 }
 .intro p {
-	color: #fff;
+	color: #000;
 	font-weight: 400;
 }
 /* -----------------------------------------------------------------------------
