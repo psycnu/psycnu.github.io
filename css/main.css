@@ -136,7 +136,9 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	background: transparent;
+	/*background: transparent;*/
+  background: url('../images/mouse_2.png') no-repeat right center;
+
 }
 #header .header-content {
 	margin: 0 auto;
@@ -183,6 +185,7 @@ ul li {
 .navigation {
 	float: right;
 }
+
 .navigation li {
 	display: inline-block;
 }
@@ -813,6 +816,9 @@ ul.list-default li {
 .person-content {
 	margin-top: 20px;
 }
+.person-content .row {
+  margin-bottom: 40px;
+}
 .person h4 {
 	font-weight: 400;
 }
@@ -960,6 +966,8 @@ ul.list-default li {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
+  /*width: 996px;*/
+  position: relative;
 }
 .footer-top {
 	background-color: #181818;
@@ -977,9 +985,6 @@ ul.list-default li {
 }
 .footer h5 {
 	margin-bottom: 20px;
-}
-.footer p {
-	color: rgba(255, 255, 255, 0.25);
 }
 .footer a {
 	color: rgba(255, 255, 255, 0.50);
@@ -1003,4 +1008,26 @@ ul.list-default li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+.navbar-bottom {
+  position: relative;
+  border: 0;
+  min-height: 180px;
+  margin-top: 40px;
+  margin-left: 10px;
+  background-color: #c1d9ed;
+  color:#FFFFFF;
+}
+
+#footer-header {
+  text-align: center;
+  margin-top: 80px;
+  /*margin-left: 100px;*/
+}
+
+#mouse {
+    position: absolute;
+    bottom: 2px;
+    z-index: 9;
 }
